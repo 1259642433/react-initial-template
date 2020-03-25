@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  margin: 0; // 取消外边距 8px
+  font-family: Arial, Helvetica, sans-serif; // 基础，苹果，非衬线字体
+  line-height: 1.2rem; // 行高
+  background: #f1f1f1; // 背景颜色灰色
+}
