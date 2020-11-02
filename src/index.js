@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import './common/style/frame.scss'
+import './common/styles/frame.scss'
 
 ReactDOM.render(<App />, document.getElementById('root'))

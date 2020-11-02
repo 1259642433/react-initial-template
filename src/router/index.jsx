@@ -20,6 +20,7 @@ const routes = [
     component: Error404
   },
 ]
+
 export default function index() {
     return (
         <Router>
