@@ -1,4 +1,4 @@
-'use strict';
+
 
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = 'development';
@@ -36,7 +36,7 @@ const useYarn = fs.existsSync(paths.yarnLockFile);
 const isInteractive = process.stdout.isTTY;
 
 // Warn and crash if required files are missing
-if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
+if (!checkRequiredFiles([paths.appHtml, paths.appMainJs])) {
   process.exit(1);
 }
 
